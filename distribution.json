@@ -1,0 +1,767 @@
+{
+  "version": "1.0.0",
+  "rss": "",
+  "discord": {
+    "clientId": "1352661796007182357",
+    "smallImageText": "FelixCraft",
+    "smallImageKey": "felixcraftlogo"
+  },
+  "servers": [
+    {
+      "id": "FelixjavaSs2-1.20.1",
+      "name": "FelixCraft Java Ss2",
+      "description": "FelixJavaSs2",
+      "icon": "https://cdn.discordapp.com/attachments/1294284728157081685/1329380532252839976/FelixCraft_Logo.png?ex=67ddd8d9&is=67dc8759&hm=f58c1ebd4bd737deaba0c852b9cbdcb4b860e04fc8e6f0f5a6d2bf8ced8a0c7f&",
+      "version": "1.0.0",
+      "address": "FelixJavaSs2.exaroton.me:52087",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "FelixCraft Java Ss2",
+        "largeImageText": "",
+        "largeImageKey": ""
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.10",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387408,
+            "MD5": "239d59118dec4324672b3d9e9d75efef",
+            "url": "https://distro.felixcraft.space/repo/lib/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.16.10",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2859,
+                "MD5": "738e82f259c0d43e098571496de14e77",
+                "url": "https://distro.felixcraft.space/repo/versions/1.20.1-fabric-0.16.10/1.20.1-fabric-0.16.10.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://distro.felixcraft.space/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://distro.felixcraft.space/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://distro.felixcraft.space/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://distro.felixcraft.space/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://distro.felixcraft.space/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://distro.felixcraft.space/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://distro.felixcraft.space/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.starfish_studios:another_furniture:1.20.1-3.0.1@jar",
+          "name": "Another Furniture",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2733280,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/another_furniture-fabric-1.20.1-3.0.1.jar",
+            "MD5": "ad7757e3ad83a5a789cdf5932d9a20f9"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1064362,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/appleskin-fabric-mc1.20.1-2.5.1.jar",
+            "MD5": "723370be246a876144ae424cbbfd60f4"
+          }
+        },
+        {
+          "id": "dev.architectury.utils:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 585207,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/architectury-9.2.14-fabric.jar",
+            "MD5": "2ae04e0dad60a390031ee341e0b2ab45"
+          }
+        },
+        {
+          "id": "artifacts:artifacts:9.5.13@jar",
+          "name": "Artifacts",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 953629,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/artifacts-fabric-9.5.13.jar",
+            "MD5": "b6e427afc547af3604dccdfbde5ff760"
+          }
+        },
+        {
+          "id": "generated.fabricmod:badoptimizations:2.2.1@jar",
+          "name": "BadOptimizations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 439771,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/BadOptimizations-2.2.1-1.20.1.jar",
+            "MD5": "eae6018cb889b2d14386c6d40dc4e953"
+          }
+        },
+        {
+          "id": "net.blay09.mods.balm:balm-fabric:7.3.18@jar",
+          "name": "Balm",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 471498,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/balm-fabric-1.20.1-7.3.18.jar",
+            "MD5": "ad78fd63427bcea11845377b0eab6bce"
+          }
+        },
+        {
+          "id": "io.github.kosmx.bendylib:bendy-lib:4.0.0@jar",
+          "name": "Bendy api",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49297,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/bendy-lib-fabric-4.0.0.jar",
+            "MD5": "ceb8bba969ac5178cebbdcac6e9863be"
+          }
+        },
+        {
+          "id": "net.bettercombat:bettercombat:1.8.6+1.20.1@jar",
+          "name": "Better Combat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 902833,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/bettercombat-fabric-1.8.6+1.20.1.jar",
+            "MD5": "8d474709e691da55e5d3bd6169184dbc"
+          }
+        },
+        {
+          "id": "io.ejekta:bountiful:6.0.4+1.20.1@jar",
+          "name": "Bountiful",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 503384,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/Bountiful-6.0.4+1.20.1-fabric.jar",
+            "MD5": "a1afe2fc29929415f5c2a50e3c5af1a9"
+          }
+        },
+        {
+          "id": "tschipp.carryon:carryon:2.1.2.7@jar",
+          "name": "Carry On",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 443033,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/carryon-fabric-1.20.1-2.1.2.7.jar",
+            "MD5": "c050f3d0934bbd8893fe2353eab906bb"
+          }
+        },
+        {
+          "id": "nl.enjarai:cicada:0.10.2+1.20.1@jar",
+          "name": "CICADA",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 80805,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/cicada-lib-0.10.2+1.20.1.jar",
+            "MD5": "dde48e0817c7beba927a28cf5b8f9d4a"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:11.1.136@jar",
+          "name": "Cloth Config v11",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1172214,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/cloth-config-11.1.136-fabric.jar",
+            "MD5": "45d8bada7797af61d1f5543313b1f9f0"
+          }
+        },
+        {
+          "id": "net.combatroll:combatroll:1.3.3+1.20.1@jar",
+          "name": "Combat Roll",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 191873,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/combatroll-fabric-1.3.3+1.20.1.jar",
+            "MD5": "96f6261f2e2153f195785d6836813f1d"
+          }
+        },
+        {
+          "id": "com.github.legoatoom:connectiblechains:2.2.1+1.20.1@jar",
+          "name": "Connectible Chains",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 138285,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/connectiblechains-2.2.1+1.20.1.jar",
+            "MD5": "96f2929ef2171dae22b807bb3d4b46a7"
+          }
+        },
+        {
+          "id": "com.simibubi:create:0.5.1-j-build.1631+mc1.20.1@jar",
+          "name": "Create",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 24841934,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/create-fabric-0.5.1-j-build.1631+mc1.20.1.jar",
+            "MD5": "48de208df4154d2149101d351148569b"
+          }
+        },
+        {
+          "id": "nl.enjarai.doabarrelroll:do_a_barrel_roll:3.6.1+1.20.1@jar",
+          "name": "Do a Barrel Roll",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 502529,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/do_a_barrel_roll-fabric-3.6.1+1.20.1.jar",
+            "MD5": "a394344cf88a72eb3fcfa3bdae509df1"
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl.textile.compat:dynamic_fps:3.9.0@jar",
+          "name": "Dynamic FPS",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 194027,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/dynamic-fps-3.9.0+minecraft-1.20.0-fabric.jar",
+            "MD5": "ffb067fc733fa3e54a7df9a1f71fcd76"
+          }
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.2.7-b.build.50@jar",
+          "name": "Emotecraft",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 873611,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/emotecraft-for-MC1.20.1-2.2.7-b.build.50-fabric.jar",
+            "MD5": "3a7abdac2462955c5a51af3cd14712ff"
+          }
+        },
+        {
+          "id": "foundationgames.enhancedblockentities:enhancedblockentities:0.9+1.20@jar",
+          "name": "Enhanced Block Entities",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 490690,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/enhancedblockentities-0.9+1.20.jar",
+            "MD5": "bfc7a62a2834f824bb426b73f383e0cb"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.7.3@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 72771,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/entityculling-fabric-1.7.3-mc1.20.1.jar",
+            "MD5": "3776daaf86393cc28d054f441fa632eb"
+          }
+        },
+        {
+          "id": "mc.euphoria_patches:euphoria_patcher:1.5.2-r5.4-fabric@jar",
+          "name": "Euphoria Patcher",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 732783,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/EuphoriaPatcher-1.5.2-r5.4-fabric.jar",
+            "MD5": "c01302104e08be52a93917a4ca3c8b53"
+          }
+        },
+        {
+          "id": "io.github.mortuusars:exposure:1.7.10@jar",
+          "name": "Exposure",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1315811,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/exposure-1.20.1-1.7.10-fabric.jar",
+            "MD5": "907b69bcb38b85366d3d6b14099381cb"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.4+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2107840,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/fabric-api-0.92.4+1.20.1.jar",
+            "MD5": "0bf0da35bbd33d5e213e7411a2c91ed4"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.1+kotlin.2.1.10@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7107488,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/fabric-language-kotlin-1.13.1+kotlin.2.1.10.jar",
+            "MD5": "93f482c99cce35eeca5e1c974c936129"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-2.3.0+refabricated@jar",
+          "name": "Farmer's Delight",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8012818,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/FarmersDelight-1.20.1-2.3.0+refabricated.jar",
+            "MD5": "d37d7b39bd81f0c5164e30918450893f"
+          }
+        },
+        {
+          "id": "com.nhoryzon.mc:farmersdelight:1.20.1-1.4.3@jar",
+          "name": "Farmer's Delight",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2718948,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/farmers-delight-fabric-1.4.3.jar",
+            "MD5": "dfcfdea62c47c8af60b5a72ce205b75c"
+          }
+        },
+        {
+          "id": "com.kingcontaria:fastquit:3.0.0+1.20+@jar",
+          "name": "FastQuit",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 79306,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/fastquit-3.0.0+1.20+.jar",
+            "MD5": "a1b2847e248207157f5bbe7285b41927"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:6.0.1@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 125197,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/ferritecore-6.0.1-fabric.jar",
+            "MD5": "a19272e427f75fea59127de6610ea26b"
+          }
+        },
+        {
+          "id": "org.figuramc:figura:0.1.5+1.20.1@jar",
+          "name": "Figura",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2462747,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/figura-0.1.5+1.20.1-fabric-mc.jar",
+            "MD5": "11503330e53468c7e496fdfb1ebb49af"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.impl:forgeconfigapiport:8.0.1@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 396955,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/ForgeConfigAPIPort-v8.0.1-1.20.1-Fabric.jar",
+            "MD5": "0842b1a68c115149c95a25e14d67acad"
+          }
+        },
+        {
+          "id": "net.xolt:freecam:1.2.1+1.20@jar",
+          "name": "Freecam (Modrinth Edition)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1072310,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/freecam-fabric-modrinth-1.2.1+1.20.jar",
+            "MD5": "fcb4fb09230ed89bca9bec53f096b7da"
+          }
+        },
+        {
+          "id": "com.supermartijn642:fusion:1.2.5@jar",
+          "name": "Fusion",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 498851,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/fusion-1.2.5-fabric-mc1.20.1.jar",
+            "MD5": "db5b39dc494cf3b7c4f7584d6e81cf14"
+          }
+        },
+        {
+          "id": "net.blay09.mods:hardcorerevival:12.0.7@jar",
+          "name": "Hardcore Revival",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 219004,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/hardcorerevival-fabric-1.20.1-12.0.7.jar",
+            "MD5": "7b1e960ebc3bb1e4fe050d73e361818f"
+          }
+        },
+        {
+          "id": "com.minelittlepony:hdskins:6.10.3+1.20.1@jar",
+          "name": "HD Skins",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1410041,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/hdskins-6.10.3+1.20.1.jar",
+            "MD5": "08d12dfe9942593be328745422654b33"
+          }
+        },
+        {
+          "id": "me.pieking1215:invmove:0.9.0@jar",
+          "name": "InvMove",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 125572,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/InvMove-0.9.0+1.20.1-Fabric.jar",
+            "MD5": "90afe971f27b4e62075dcd4cb992a7f5"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.6+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2726899,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/iris-1.7.6+mc1.20.1.jar",
+            "MD5": "45577adb5ab16505572c6ea4b1006e58"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.106@jar",
+          "name": "Just Enough Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1392720,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/jei-1.20.1-fabric-15.20.0.106.jar",
+            "MD5": "f2536f0f14f67847634ae70d3ca79348"
+          }
+        },
+        {
+          "id": "io.ejekta:kambrik:6.1.1+1.20.1@jar",
+          "name": "Kambrik",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 327998,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/Kambrik-6.1.1+1.20.1-fabric.jar",
+            "MD5": "7494e938737edb83f2cca398b4d1aacc"
+          }
+        },
+        {
+          "id": "me.steinborn.krypton.mod.shared:krypton:0.2.3@jar",
+          "name": "Krypton",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 185895,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/krypton-0.2.3.jar",
+            "MD5": "3bf353c1ab576b57c003109c079e2ec8"
+          }
+        },
+        {
+          "id": "ru.vidtu.ksyxis.loaders:ksyxis:1.3.3@jar",
+          "name": "Ksyxis",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 28484,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/Ksyxis-1.3.3.jar",
+            "MD5": "66f7a6f5dd5a8f090adfd87472f9509d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:languagereload:1.7.2+1.20.1@jar",
+          "name": "Language Reload",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 72149,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/language-reload-1.7.2+1.20.1.jar",
+            "MD5": "d2a55adc5e634392aa0682fa336fffb3"
+          }
+        },
+        {
+          "id": "dev.worldgen:lithostitched:1.4@jar",
+          "name": "Lithostitched",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 480702,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/lithostitched-fabric-1.20.1-1.4.4.jar",
+            "MD5": "9b39ece9cbf99f9a127acb4efa9e9d00"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwfurnitures:3.3.0@jar",
+          "name": "Macaw's Furniture",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1910842,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/mcw-furniture-3.3.0-mc1.20.1fabric.jar",
+            "MD5": "bf6626032fe412d93406d3bcdeee7963"
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49334,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "MD5": "a8461f89d267441752c95beb5448e940"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:modelfix:1.15@jar",
+          "name": "Model Gap Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 65491,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/modelfix-1.15-fabric.jar",
+            "MD5": "5503cf88c4ecb768330655258fa9b388"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.20.2+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 506056,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/modernfix-fabric-5.20.2+mc1.20.1.jar",
+            "MD5": "e23e2120790795f762217120fce8f236"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:7.2.2@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 721366,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/modmenu-7.2.2.jar",
+            "MD5": "2629511a2d3b141d9f2a24dc9685637e"
+          }
+        },
+        {
+          "id": "ca.fxco:moreculling:1.20.4-0.24.0@jar",
+          "name": "More Culling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 272851,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/moreculling-1.20.4-0.24.0.jar",
+            "MD5": "109804ad4b9f14a549f02bf26c98ac44"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.26@jar",
+          "name": "Mouse Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77943,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/MouseTweaks-fabric-mc1.20-2.26.jar",
+            "MD5": "3138c776d370c90603938eb54d17469a"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.3@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11936723,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/plasmovoice-fabric-1.20.1-2.1.3.jar",
+            "MD5": "b0eaff774d54f678cfd334801507f63e"
+          }
+        },
+        {
+          "id": "dev.kosmx.playerAnim:player-animator:1.0.2-rc1+1.20@jar",
+          "name": "Player Animator",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 181008,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/player-animation-lib-fabric-1.0.2-rc1+1.20.jar",
+            "MD5": "03dfb09aabe5c2c8167568cd5c32666b"
+          }
+        },
+        {
+          "id": "com.supermartijn642:rechiseled:1.1.6@jar",
+          "name": "Rechiseled",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3577691,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/rechiseled-1.1.6-fabric-mc1.20.jar",
+            "MD5": "90af959efd53e54bb9ec7c1794860361"
+          }
+        },
+        {
+          "id": "org.redlance.dima_dencep.mods:rrls:4.0.6.1+mc1.20.1-fabric@jar",
+          "name": "Remove Reloading Screen",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 160946,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/rrls-4.0.6.1+mc1.20.1-fabric.jar",
+            "MD5": "2a0728123d4089f8eb44c2654c52a8c6"
+          }
+        },
+        {
+          "id": "net.mcreator.sarosmoneymod:saros__money_mod:2.1@jar",
+          "name": "Saro´s Money Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 239854,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/Saros-Money-Mod.1.20.1-2.3-[Fabric-Quilt].jar",
+            "MD5": "69e219947957e3c54ea67e1cb1de629a"
+          }
+        },
+        {
+          "id": "nl.enjarai:showmeyourskin:1.9.0+1.20@jar",
+          "name": "Show Me Your Skin!",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 262295,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/show-me-your-skin-1.9.0+1.20.jar",
+            "MD5": "e0d96af6540bfa291165a2a2c49f2286"
+          }
+        },
+        {
+          "id": "net.rosemarythyme:simplymore:1.1.3@jar",
+          "name": "Simply More",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1581901,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/simplymore-fabric-1.1.3.jar",
+            "MD5": "2ea6ab72af4d844ba9660966d6531f21"
+          }
+        },
+        {
+          "id": "net.sweenus:simplyswords:1.56.0-1.20.1@jar",
+          "name": "Simply Swords",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 15366470,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/simplyswords-fabric-1.56.0-1.20.1.jar",
+            "MD5": "307f190b49947ace559334609eb66634"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.9+mc1.20.1@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 370701,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/optionalon/sodium-extra-0.5.9+mc1.20.1.jar",
+            "MD5": "cb941aa93cad7e9e238f56b6f75b1c10"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.13+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 971552,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/optionalon/sodium-fabric-0.5.13+mc1.20.1.jar",
+            "MD5": "76e0349865f91f315aae087a6e88a84a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.18+a@jar",
+          "name": "SuperMartijn642's Core Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 562776,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/supermartijn642corelib-1.1.18a-fabric-mc1.20.1.jar",
+            "MD5": "de8a3f64db9f132efe1ba69715c7768e"
+          }
+        },
+        {
+          "id": "dev.emi:trinkets:3.7.2@jar",
+          "name": "Trinkets",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 238532,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/trinkets-3.7.2.jar",
+            "MD5": "c010ccc2015e5b1f3cb1994694ecc512"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:14.1.11@jar",
+          "name": "Waystones",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 487379,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/waystones-fabric-1.20.1-14.1.11.jar",
+            "MD5": "6faab90011cf7b633d3f2c27e5e393fa"
+          }
+        },
+        {
+          "id": "net.wurstclient.zoom:wi_zoom:1.6-MC1.20.1@jar",
+          "name": "WI Zoom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 155225,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/WI-Zoom-1.6-MC1.20.1.jar",
+            "MD5": "402e43eac5ceb006c20b19928f880fda"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.39.4@jar",
+          "name": "Xaero's World Map",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 951657,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/XaerosWorldMap_1.39.4_Fabric_1.20.jar",
+            "MD5": "6f85dec84a60c5909f1ce7337768fef3"
+          }
+        }
+      ]
+    }
+  ]
+}

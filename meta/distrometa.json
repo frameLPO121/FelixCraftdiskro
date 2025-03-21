@@ -1,0 +1,11 @@
+{
+  "$schema": "file:///C:/Users/takoo/Documents/FFFFFFFFFFFFFF/Felix/schemas/DistroMetaSchema.schema.json",
+  "meta": {
+    "rss": "",
+    "discord": {
+      "clientId": "1352661796007182357",
+      "smallImageText": "FelixCraft",
+      "smallImageKey": "felixcraftlogo"
+    }
+  }
+}

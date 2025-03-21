@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/takoo/Documents/FFFFFFFFFFFFFF/Felix/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "FelixCraft Java Ss2",
+    "description": "FelixJavaSs2",
+    "icon": "https://cdn.discordapp.com/attachments/1294284728157081685/1329380532252839976/FelixCraft_Logo.png?ex=67ddd8d9&is=67dc8759&hm=f58c1ebd4bd737deaba0c852b9cbdcb4b860e04fc8e6f0f5a6d2bf8ced8a0c7f&",
+    "address": "FelixJavaSs2.exaroton.me:52087",
+    "discord": {
+      "shortId": "FelixCraft Java Ss2",
+      "largeImageText": "",
+      "largeImageKey": ""
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.16.10"
+  },
+  "untrackedFiles": []
+}
