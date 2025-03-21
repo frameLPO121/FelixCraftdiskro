@@ -712,6 +712,16 @@
           }
         },
         {
+          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.8+a@jar",
+          "name": "SuperMartijn642's Config Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 207990,
+            "url": "https://distro.felixcraft.space/servers/FelixjavaSs2-1.20.1/fabricmods/required/supermartijn642configlib-1.1.8a-fabric-mc1.20.jar",
+            "MD5": "b8e27e4c98a70e3034774f5b31a3044e"
+          }
+        },
+        {
           "id": "com.supermartijn642.core:supermartijn642corelib:1.1.18+a@jar",
           "name": "SuperMartijn642's Core Lib",
           "type": "FabricMod",
